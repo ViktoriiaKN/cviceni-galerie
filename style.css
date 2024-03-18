@@ -14,6 +14,37 @@ body {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width:500px) {
+  .galerie {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .foto {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .foto {
+    width: 33.33%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .foto {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .foto {
+    width: 16.666%;
+  }
 }
 
 /*
